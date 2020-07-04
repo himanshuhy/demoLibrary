@@ -1,0 +1,19 @@
+{
+  "name": "demolibrary",
+  "version": "1.0.0",
+  "description": "Basic library to learn node/express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/himanshuhy/demoLibrary.git"
+  },
+  "author": "Himanshu Yadav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/himanshuhy/demoLibrary/issues"
+  },
+  "homepage": "https://github.com/himanshuhy/demoLibrary#readme"
+}
