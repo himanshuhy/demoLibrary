@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Basic library to learn node/express",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "tsc && node out/index.js"
   },
@@ -15,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/himanshuhy/demoLibrary/issues"
   },
-  "homepage": "https://github.com/himanshuhy/demoLibrary#readme"
+  "homepage": "https://github.com/himanshuhy/demoLibrary#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.6",
+    "@types/node": "^14.0.14"
+  }
 }
