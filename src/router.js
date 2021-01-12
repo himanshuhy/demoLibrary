@@ -1,7 +1,5 @@
 const express = require('express')
 
-const database = require('./database.js')
-
 const router = express.Router();
 
 router.all('/index', (req, res) => {
@@ -10,7 +8,15 @@ router.all('/index', (req, res) => {
 });
 
 router.all('/', (req, res)=> {
+    console.log(req.range(1000))
     // res.status(200)
-    res.send("You are welcome where")
+    // setTimeout(()=> {
+    //     res.send('Hello World!')
+    // }, 200)
+    res.sendFile('test.txt', {
+        root: '/Users/yhimansh/Documents/demoLibrary',
+        acceptRanges: true
+    })
 })
+
 exports.router = router
